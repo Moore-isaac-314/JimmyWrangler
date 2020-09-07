@@ -65,9 +65,12 @@ changedata.to_csv('Change Data.csv')
 #Plotting the data
 plt.figure()
 fifteendata.plot()
+plt.savefig('2015Data.pdf')
 
 plt.figure()
 sixteendata.plot()
+plt.savefig('2016Data.pdf')
 
 plt.figure()
 changedata.plot()
+plt.savefig('ChangeData.pdf')
